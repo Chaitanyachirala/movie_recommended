@@ -24,10 +24,7 @@ st.sidebar.header('A Movie Recommended Sysem app')
 
 
 
-app_mode = st.sidebar.radio(
-    "",
-    ("Movie Recommended System"),
-)
+app_mode = "Movie Recommended System"
 
 
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
