@@ -26,7 +26,7 @@ st.sidebar.header('A Movie Recommended Sysem app')
 
 app_mode = st.sidebar.radio(
     "",
-    ("About Me","Movie Recommended System"),
+    ("Movie Recommended System"),
 )
 
 
@@ -34,20 +34,6 @@ st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', uns
 
 st.sidebar.markdown('---')
 st.sidebar.write('N.V.Suresh Krishna | sureshkrishnanv24@gmail.com https://github.com/sureshkrishna123')
-
-if app_mode =='About Me':
-    st.image('images/pic.jpg', use_column_width=True)
-    st.markdown('''
-              # About Me \n 
-                Hey this is N.V.Suresh Krishna. \n
-                
-                
-                Also check me out on Social Media
-                - [git-Hub](https://github.com/sureshkrishna123)
-                - [LinkedIn](https://www.linkedin.com/in/suresh-krishna-nv/)
-                - [Instagram](https://www.instagram.com/worldofsuresh._/)
-                - [Portfolio](https://sureshkrishna123.github.io/sureshportfolio/)\n
-                ''')
 
 if app_mode =='Movie Recommended System':
     
